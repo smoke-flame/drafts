@@ -1,0 +1,30 @@
+$font: "GothamPro";
+$blue: #4C1DD2;
+$dark: #121B30;
+$pink: #F86161;
+
+@font-face {
+    font-family: "GothamPro";
+    src: url("../font/GothamPro.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "GothamPro";
+    src: url("../font/GothamPro-Bold.ttf");
+    font-weight: 700;
+}
+
+@keyframes train {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-1980px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

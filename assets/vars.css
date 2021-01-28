@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "GothamPro";
+  src: url("../font/GothamPro.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../font/GothamPro-Bold.ttf");
+  font-weight: 700;
+}
+
+@-webkit-keyframes train {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-1980px);
+            transform: translateX(-1980px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes train {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-1980px);
+            transform: translateX(-1980px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+/*# sourceMappingURL=vars.css.map */
